@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="#" class="nav-logo">
+            <h2 class="logo-text">BTEC LEVEL 3</h2>
+           </a>
+            <div class="nav-links" id="navlinks">
+                <i  class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                     <li><a href="#">quiz</a></li>
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">Take Action</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i  class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Climate Change in Ghana:Understanding our Future</h1>
+            <p>Ghana faces unprecedented environmental challenges that require
+                immediate attention and collaborative action.<br>Join us in protecting our nation's future
+            </p>
+            <a href=""  class="here-btn">Learn More</a>
+        </div>
+    </section>
+
+
+<section class="learn">
+    <h1>Know More About Climate Change</h1>
+    <p>Know the causes,effects and solutions of climate change</p>
+   <br>
+   <br>
+    <div class="row">
+        <div class="learn-col">
+            <h3>CAUSES</h3>
+            <P>Climate change is primarily caused by human activities, although natural processes also 
+                play a role. Here are the main causes:</P>
+        </div>      <div class="learn-col">
+            <h3>EFFECTS</h3>
+            <P>Climate change is primarily caused by human activities, although natural processes also 
+                play a role. Here are the main causes:</P>
+        </div>
+              <div class="learn-col">
+            <h3>SOLUTIONS</h3>
+            <P>Climate change is primarily caused by human activities, although natural processes also 
+                play a role. Here are the main causes:</P>
+        </div>
+    </div>
+</section>
+<section class="class">
+   <h1>Global Impacts and Consequences</h1>
+   <p>what are the impacts and consequences of climate change</p> 
+  <br>
+  <br>
+  <br>
+   <div class="row">
+    <div class="class-col" id="col-one">
+        <!-- <img src="tem.jpg" alt=""> -->
+        <div class="layer">
+            <h3>Temperature Rise</h3>
+        </div>
+    </div>
+        <div class="class-col" id="col-two">
+        <!-- <img src="scarce.webp"> -->
+        <div class="layer">
+            <h3>Water Scarcity</h3>
+        </div>
+    </div>
+        <div class="class-col" id="col-three">
+        <!-- <img src="hun.webp" alt=""> -->
+        <div class="layer">
+            <h3>Food Insecurity</h3>
+        </div>
+    </div>
+   </div>
+</section>
+<section class="quick" id="explore">
+<h2 class="section-title">Explore. Learn. Act</h2>
+<p class="section-subtitle">
+    Choose your path to climate action below
+</p>
+<div class="access-grid">
+    <div class="access-box">
+    <div class="icon">📖</div>
+    <h3>Learn About Climate Change</h3>
+    <p>Explore the causes, effects and solutions of climate change</p>
+    <a href="learn.html" class="btn">Start Learning</a>
+</div>
+
+<div class="access-box">
+    <div class="icon">💪🏻</div>
+    <h3>Be Part of the Solution</h3>
+    <p>Join youth clubs and lead eco-friendly projects in your community</p>
+    <a href="take action.html" class="btn">take action</a>
+</div>
+<div class="access-box">
+    <div class="icon">🧠</div>
+    <h3>Test Your Climate Smarts</h3>
+    <p>Take Fun Quizzes and win Badges while Learning about the Environment</p>
+    <a href="quiz.html" class="btn">Take a quiz</a>
+    </div>
+</div>
+</section>
+
+
+
+
+    <script>
+        var navlink = document.getElementById("navlinks");
+        function ShowMenu() {
+            navlink.style.right = "0";
+            
+        }
+        
+          function HideMenu() {
+            navlink.style.right = "-200px";
+           
+        }
+        //    function HideMenu=(){
+        //     navlink.style.right = "200px";
+        // }
+
+        // navlink.addEventListener("onclick", () => {
+        //     navlink.style.right = "0px";
+        //     navlink.style.display = "none";
+        // })
+    
+    </script>
+    
+</body>
+</html>
